@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="menuView">
+		<View id="menuTopBar">
+			<View id="viewEscudo"><ImageView id="imgEscudo"></ImageView></View>
+		</View>
+		<View id="viewTabla">
+			<TableView class="menuTable" id="menuTable">
+				
+			</TableView>
+		</View>
+	</View>
+</Alloy>

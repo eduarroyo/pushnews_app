@@ -1,0 +1,10 @@
+"#mainView": {
+	layout: "vertical",
+	backgroundColor: "white"
+}
+"#tableLista[platform=ios]": {
+	separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+}
+"#tableLista[platform=android]": {
+	separatorStyle: Titanium.UI.TABLE_VIEW_SEPARATOR_STYLE_NONE
+}

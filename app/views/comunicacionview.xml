@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="mainView">
+		<Widget src="com.appbando.cabecera" id="viewCabecera" />
+		<View id="viewTop">
+			<Label id="lblCategoria"></Label>
+			<Widget id="lblFecha" src="it.toriphes.timeago" />
+		</View>
+ 		<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false">
+            <View id="viewDatos" layout="vertical" top="0" />
+        </ScrollView>
+	</View>
+</Alloy>

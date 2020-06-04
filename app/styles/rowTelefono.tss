@@ -1,0 +1,23 @@
+".lblTitulo": {
+	top: "10dp",
+	height: "20dp",
+	color: Alloy.Globals.Telefonos_Color_Titulo_Letra,
+	textAlign: "left",
+	font: {
+		fontFamily: "Lato",
+		fontSize: "15dp"
+	}
+},
+".lblTelefono": {
+	color: Alloy.Globals.Telefonos_Color_Letra,
+	textAlign: "center",
+	font: {
+		fontFamily: "Lato",
+		fontSize: "30dp"
+	}
+},
+"#row": {
+	height: "70dp",
+	selectedBackgroundColor: "transparent",
+	backgroundColor: "transparent"
+}

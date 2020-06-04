@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="mainView" layout="vertical">
+		<Widget src="com.appbando.cabecera" id="viewCabecera" />
+		<TableView id="telTable" onClick="rowClick">
+			
+		</TableView>
+	</View>
+</Alloy>

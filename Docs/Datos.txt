@@ -1,0 +1,20 @@
+appbando_appbando
+IDEADIGITALSTORE
+
+
+keytool -list -keystore IDEADIGITALSTORE
+
+
+
+Datos Cloud Producción:
+
+Usuario: appbando_user
+Clave  : wd57QOtL
+Key    : 4Whw68nhPTD7vSPHR0URUDi0G5nhfxPp
+
+
+Datos Cloud Desarrollo:
+
+Usuario: appbando_user
+Clave  : wd57QOtL
+Key    : ItSEoyP88jZ6qOomOIKOPoWmbEw8nAZp

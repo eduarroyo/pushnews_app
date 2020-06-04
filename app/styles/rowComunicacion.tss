@@ -1,0 +1,62 @@
+"#lblCategoria" : {
+	top: "5dp",
+	left: "100dp",
+	height: "15dp",
+	borderRadius: "5dp",
+	backgroundColor: Alloy.Globals.Comunicaciones_Categoria_Color_Fondo,
+	color: Alloy.Globals.Comunicaciones_Categoria_Color_Letra,
+	font: {
+		fontFamily: "Lato",
+		fontSize: "12dp"
+	}
+},
+"#lblFecha" : {	
+	top: "5dp",
+	right: "5dp",
+	height: "15dp",
+	textAlign: "right",
+	width: Titanium.UI.FILL,
+	color: Alloy.Globals.Comunicaciones_Color_Letra,
+	font: {
+		fontFamily: "Lato",
+		fontSize: "12dp"
+	}
+},
+"#viewImagen": {
+	top: "5dp",
+	left: "5dp",
+	width: "90dp",
+	height: "90dp"	
+},
+"#imaImagen": {
+	width: "90dp",
+	defaultImage: '/ima/Escudo.png'
+},
+"#lblTitulo": {
+	left: "100dp",
+	top: "20dp",
+	height: "75dp",
+	width: Titanium.UI.FILL,
+	color: Alloy.Globals.Comunicaciones_Color_Letra,
+	font: {
+		fontFamily: "Lato",
+		fontSize: "18dp"
+	}	
+},
+"#row": {
+	height : Ti.UI.SIZE,
+	selectedBackgroundColor: Alloy.Globals.Comunicaciones_Color_Fondo_Seleccionado,
+	backgroundColor: "transparent"
+}
+".IconoDestacado": {
+   	left: "0dp",
+   	top: "0dp",
+	width: "30dp",
+	height: "30dp",
+	color: Alloy.Globals.Comunicacion_Destacado_Color_Icono,
+	textAlign: "center",
+	font: {
+		fontFamily: "FontAwesome",
+		fontSize: "30dp"		
+	}
+},

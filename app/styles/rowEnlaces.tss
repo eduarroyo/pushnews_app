@@ -1,0 +1,63 @@
+"#viewCabecera":{
+	width: Ti.UI.FILL,
+	height: "60dp",
+	layout: 'horizontal'
+},
+"#viewImagen": {
+	top: "10dp",
+	left: "10dp",
+	width: "50dp",
+	height: "40dp"
+},
+"#lblIcono": {
+	top: "0dp",
+	left: "0dp",
+	width: "50dp",
+	height: "40dp"
+},
+"#imaImagen": {
+	width: "50dp",
+	defaultImage: '/ima/Escudo.png'
+},
+"#viewDerecha": {
+	top: "10dp",
+	left: "0dp",
+	right: "10dp",
+	width: Titanium.UI.FILL,
+	height: "40dp"	
+},
+"#lblTipo": {
+	top: "0dp",
+	left: "5dp",
+	height: "16dp",
+	borderRadius: "5dp",
+	backgroundColor: Alloy.Globals.Comunicacion_Categoria_Color_Fondo,
+	color: Alloy.Globals.Comunicacion_Categoria_Color_Letra,
+	font: {
+		fontFamily: "Lato",
+		fontSize: "10dp"
+	}
+},
+"#lblTitulo": {
+	height: "20dp",
+	top: "20dp",
+	left: "5dp",
+	width: Titanium.UI.FILL,
+	color: Alloy.Globals.Comunicacion_Color_Letra,
+	font: {
+		fontFamily: "Lato",
+		fontSize: "12dp"
+	}
+},
+".icono":{
+	color: Alloy.Globals.Comunicacion_Color_Icono,
+	textAlign: "center",
+	font: {
+		fontFamily: "FontAwesome",
+		fontSize: "40dp"		
+	}
+},
+"#lblTitulo[platform=ios]": {
+},
+"#lblTitulo[platform=android]": {
+}

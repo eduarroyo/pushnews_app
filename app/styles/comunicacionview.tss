@@ -1,0 +1,36 @@
+"#mainView": {
+	layout: "vertical",
+	backgroundColor: "white"
+},
+"#viewDatos": {
+	layout: "vertical",
+	width: Ti.UI.FILL
+},
+"#viewTop" : {
+	layout: 'horizontal',
+	height: "35dp"
+},
+"#lblCategoria" : {
+	top: "5dp",
+	left: "5dp",
+	height: "25dp",
+	borderRadius: "5dp",
+	backgroundColor: Alloy.Globals.Comunicacion_Categoria_Color_Fondo,
+	color: Alloy.Globals.Comunicacion_Categoria_Color_Letra,
+	font: {
+		fontFamily: "Lato",
+		fontSize: "16dp"
+	}
+},
+"#lblFecha" : {	
+	top: "5dp",
+	right: "5dp",
+	height: "25dp",
+	textAlign: "right",
+	width: Titanium.UI.FILL,
+	color: Alloy.Globals.Comunicacion_Color_Letra,
+	font: {
+		fontFamily: "Lato",
+		fontSize: "16dp"
+	}
+}

@@ -1,0 +1,11 @@
+<Alloy>
+    <TableViewRow id="row" hasChild="false">
+		<Label id="lblCategoria"></Label>
+		<Widget id="lblFecha" src="it.toriphes.timeago" />
+		<View id="viewImagen">
+			<ImageView id="imaImagen"></ImageView>
+			<Label id="lblDestacado" class="fa-star IconoDestacado" visible="false" />
+		</View>
+		<Label id="lblTitulo"></Label>
+	</TableViewRow>
+</Alloy>

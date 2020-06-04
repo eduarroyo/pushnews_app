@@ -1,0 +1,13 @@
+"#mainView": {
+	layout: "vertical",
+	backgroundColor: "white"
+}
+"#telTable": {
+	backgroundColor: 'white'
+}
+"#telTable[platform=ios]": {
+	separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+}
+"#telTable[platform=android]": {
+	separatorStyle: Titanium.UI.TABLE_VIEW_SEPARATOR_STYLE_NONE
+}

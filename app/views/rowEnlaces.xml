@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="viewCabecera">
+		<View id="viewImagen">
+			<Label id="lblIcono"></Label>
+			<ImageView id="imaImagen" visible="false"></ImageView>
+		</View>
+		<View id="viewDerecha">
+			<Label id="lblTipo"></Label>
+			<Label id="lblTitulo"></Label>
+		</View>
+	</View>
+</Alloy>

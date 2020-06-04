@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="viewFila">
+		<View id="viewIos" platform="ios">
+			<Label id="lblFacebook" class="rowIcon fa-facebook-square" platform="ios"></Label>
+			<Label id="lblTwitter" class="rowIcon fa-twitter-square" platform="ios"></Label>			
+			<Label id="lblEmail" class="rowIcon fa-envelope-square" platform="ios"></Label>			
+		</View>
+		<Label id="lblCompartir" class="rowIcon fa-share-alt-square" platform="android"></Label>
+	</View>
+</Alloy>

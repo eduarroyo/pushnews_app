@@ -1,0 +1,15 @@
+"#index":{
+	backgroundColor: 'white'
+},
+"#index[platform=ios]":{
+	modal: true,
+	fullscreen: true,
+	modalTransitionStyle: Ti.UI.iPhone.MODAL_TRANSITION_STYLE_CROSS_DISSOLVE
+},
+"#mainView": {
+	layout: "vertical",
+	backgroundColor: "white"
+},
+"#mapview" : {
+    mapType: Alloy.Globals.Map.NORMAL_TYPE
+}

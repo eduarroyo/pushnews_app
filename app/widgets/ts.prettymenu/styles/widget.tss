@@ -1,0 +1,16 @@
+/* ------ Ti.UI.View ------ */
+".pretty-menu": {
+    layout:     "vertical",
+    height:     Ti.UI.SIZE,
+    width:      Ti.UI.SIZE
+}
+
+/* ------ Ti.UI.View ------ */
+".pretty-row": {
+    bottom:     "0",
+    center:     { x: "50%" },
+    layout:     "horizontal",
+    height:     Ti.UI.SIZE,
+    top:        "0",
+    width:      Ti.UI.SIZE
+}

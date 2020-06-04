@@ -1,0 +1,13 @@
+<resources>
+	<string name="it_toriphes_timeago_seconds">hace menos de un minuto</string>
+	<string name="it_toriphes_timeago_minute">hace un minuto</string>
+	<string name="it_toriphes_timeago_minutes">hace %d minutos</string>
+	<string name="it_toriphes_timeago_hour">hace una hora</string>
+	<string name="it_toriphes_timeago_hours">hace %d horas</string>
+	<string name="it_toriphes_timeago_day">hace un día</string>
+	<string name="it_toriphes_timeago_days">hace %d días</string>
+	<string name="it_toriphes_timeago_month">hace un mes</string>
+	<string name="it_toriphes_timeago_months">hace %d meses</string>
+	<string name="it_toriphes_timeago_year">hace un año</string>
+	<string name="it_toriphes_timeago_years">hace %d años</string>
+</resources>

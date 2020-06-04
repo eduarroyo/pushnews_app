@@ -1,0 +1,6 @@
+<Alloy>
+    <TableViewRow id="row" layout="vertical">
+    	<Label id="lblTitulo" class="lblTitulo" />
+    	<Label id="lblTelefono" class="lblTelefono" />
+	</TableViewRow>
+</Alloy>

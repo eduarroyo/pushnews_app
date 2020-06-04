@@ -1,0 +1,13 @@
+"#mainView": {
+	layout: "vertical",
+	backgroundColor: "white"
+},
+"#mapview" : {
+    region : {
+        latitude: 39.261274,
+        longitude: -6.105182,
+        latitudeDelta:0.03,
+        longitudeDelta:0.03
+    },
+    mapType: Alloy.Globals.Map.NORMAL_TYPE
+}

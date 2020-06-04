@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="window" class="container">
+		<View id="imgFondo" backgroundColor="red" />
+		<View id="mainTopBar" class="mainTopBar" >
+			<Label id="btnCategorias" class="iconOpcionCategorias fa-tags" />
+		    <Label id="lblTitulo" text="" />
+		    <Label id="btnHome" class="iconOpcionHome fa-home" />
+		</View>
+		<ScrollView id="viewContenido">
+			<Widget src="ts.prettymenu" id="prettyMenu" />
+        </ScrollView>
+	</Window>
+</Alloy>

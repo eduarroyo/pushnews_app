@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.appbando.appbando</id>
+    <name>AppBando</name>
+    <version>1.3</version>
+    <publisher>Tecnologias de Movilidad</publisher>
+    <url>http://www.appbando.com</url>
+    <description>undefined</description>
+    <copyright>2016 by Tecnologias de Movilidad</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>c2b6b97a-256a-46a9-9888-b0c7407a5444</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+                <key>NSLocationAlwaysUsageDescription</key>
+                <string>
+                    Acceso a la posicion para ofrecerle datos de como llegar a las distintas ubicaciones.
+                </string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:installLocation="preferExternal"
+            android:persistent="true" android:versionCode="13"
+            android:versionName="1.3" xmlns:android="http://schemas.android.com/apk/res/android">
+            <!-- Allows the API to download data from Google Map servers -->
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+            <uses-permission android:name="android.permission.INTERNET"/>
+            <!-- Allows the API to cache data -->
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+            <!-- Use GPS for device location -->
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+            <!-- Use Wi-Fi or mobile connection for device location -->
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+            <!-- Allows the API to access Google web-based services -->
+            <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+            <!-- Specify OpenGL ES 2.0 as a requirement -->
+            <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+            <!-- Replace <com.domain.appid> with your application ID -->
+            <uses-permission android:name="com.appbando.appbando.permission.MAPS_RECEIVE"/>
+            <permission
+                android:name="com.appbando.appbando.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+            <application android:theme="@style/Theme.NoActionBar">
+                <!-- Replace "PASTE YOUR GOOGLE MAPS API KEY HERE" with the Google API key you obtained -->
+                <meta-data
+                    android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAW87vFWXZpoLDMOrZaHYyFnKg720D4rvE"/>
+            </application>
+            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23"/>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="android">ti.cloudpush</module>
+        <module platform="iphone">ti.coremotion</module>
+        <module platform="iphone">ti.map</module>
+        <module platform="android">ti.map</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>6.0.2.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">56e46ca880f05bd1630226a8</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">QHEH0Ftn7Fo9d8NkQ51agRDhEBFI7B0i</property>
+    <property name="acs-oauth-key-development" type="string">8qiUtp4bUVonlKfmOUEGRNMNI9zcFqxF</property>
+    <property name="acs-api-key-development" type="string">ItSEoyP88jZ6qOomOIKOPoWmbEw8nAZp</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">5epCQZcCqpjrFopbtA</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">QpBtL7f8WP35Fju0ntoG9ANgc0cUP0p5</property>
+    <property name="acs-oauth-key-production" type="string">bRioE3LJNo12zHqfnwmyyAx3lctLPtGy</property>
+    <property name="acs-api-key-production" type="string">4Whw68nhPTD7vSPHR0URUDi0G5nhfxPp</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">IWz8vNdzTun8KA7QLD</property>
+    <property name="appc-org-id" type="string">100009531</property>
+    <property name="appc-creator-user-id" type="string">ab2e411c-6449-4a53-a420-d9d94c1f21f9</property>
+</ti:app>

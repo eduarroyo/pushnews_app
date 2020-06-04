@@ -1,0 +1,85 @@
+"#menuView":{
+	layout: 'vertical',
+	backgroundColor: 'white'
+},
+"#menuTopBar[if=Alloy.Globals.isIOS7Plus]": {
+	height: "100dp",
+},
+"#menuTopBar[if=!Alloy.Globals.isIOS7Plus]": {
+	height: "90dp",
+},
+"#menuTopBar[platform=android]": {
+	height: "90dp",
+},
+"#menuTopBar":{
+	width: Ti.UI.FILL,
+//	backgroundGradient: {
+//        type: 'linear',
+//        colors: [ '#d9885d', '#ba513e'],
+//        backfillStart: true
+//	},
+	layout: 'vertical'
+},
+"#viewEscudo[if=Alloy.Globals.isIOS7Plus]": {
+	top: "10dp"
+},
+"#viewEscudo[if=!Alloy.Globals.isIOS7Plus]": {
+	top: "0dp"
+},
+"#viewEscudo[platform=android]": {
+	top: "0dp"
+},
+"#viewEscudo": {
+	height: "90dp"
+},
+"#imgEscudo": {
+	left: "0dp",
+	//height: "90dp",
+	width: "250dp",
+	image: "/ima/Escudo.png"
+},
+"#lblPoblacion[platform=ios]": {
+	height: "30dp",
+	left: "0dp",
+	width: "250dp",
+	color: "white",
+	textAlign: "center",
+	font: {
+		fontFamily: "SnellRoundhand-Black",
+		fontSize: "30dp"
+	}
+},
+"#lblPoblacion[platform=android]": {
+	height: "30dp",
+	left: "0dp",
+	width: "250dp",
+	color: "white",
+	textAlign: "center",
+	font: {
+		fontFamily: "SnellRoundhand-BlackScript",
+		fontSize: "25dp"
+	}
+},
+".rowIcon":{
+	left: 5,
+	top: 7,
+	width: "20dp",
+	height: "20dp"
+},
+"#viewTabla": {
+	backgroundGradient: {
+       type: 'linear',
+       colors: [ Alloy.Globals.Menu_Color_Arriba, Alloy.Globals.Menu_Color_Abajo],
+       backfillStart: true
+	}
+},
+".menuTable":{
+	separatorColor: 'transparent',
+	backgroundColor: 'transparent'
+}
+".menuTable[platform=ios]": {
+	separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+}
+".menuTable[platform=android]": {
+	separatorStyle: Titanium.UI.TABLE_VIEW_SEPARATOR_STYLE_NONE
+}

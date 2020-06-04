@@ -1,0 +1,31 @@
+"#viewFila": {
+	height: "40dp",
+	width: Titanium.UI.FILL
+},
+"#lblCompartir": {
+	width: "40dp",
+	color: Alloy.Globals.Comunicacion_Color_Icono
+},
+"#viewIos": {
+	width: "120dp",
+	layout: "horizontal"
+},
+"#lblFacebook": {
+	width: "40dp",
+	color: "#3b5998"
+},
+"#lblTwitter": {
+	width: "40dp",
+	color: "#55acee"
+},
+"#lblEmail": {
+	width: "40dp",
+	color: Alloy.Globals.Comunicacion_Color_Icono
+},
+".rowIcon": {
+	font: {
+		fontFamily: "FontAwesome",
+		fontSize: "40dp"		
+	}
+}
+

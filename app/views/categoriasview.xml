@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="mainView">
+		<Widget src="com.appbando.cabecera" id="viewCabecera" />
+        <TableView id="tableLista">
+		
+		</TableView>
+	</View>
+</Alloy>

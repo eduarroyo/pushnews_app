@@ -1,0 +1,8 @@
+<Alloy>
+    <View class="pretty-item" id="prettyItem">
+        <View class="pretty-container" id="prettyContainer">
+            <Label class="pretty-icon" id="prettyIcon" />
+            <Label class="pretty-title" id="prettyTitle" />
+        </View>
+    </View>
+</Alloy>

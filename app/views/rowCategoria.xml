@@ -1,0 +1,5 @@
+<Alloy>
+    <TableViewRow id="row">
+    	<Label id="rowIcon" /><Label id="rowTitulo" class="rowTitulo" />
+	</TableViewRow>
+</Alloy>

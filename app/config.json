@@ -1,0 +1,22 @@
+{
+  "global": {},
+  "env:development": {},
+  "env:test": {},
+  "env:production": {},
+  "os:android": {},
+  "os:blackberry": {},
+  "os:ios": {},
+  "os:mobileweb": {},
+  "os:windows": {},
+  "dependencies": {
+    "ts.prettymenu": "1.2",
+    "com.alcoapps.drawermenu": "2.0",
+    "com.ksouthworth.buttonbar": "1.0",
+    "com.appbando.cabecera": "1.0",
+    "it.toriphes.timeago": "1.0",
+    "nl.fokkezb.loading": "1.8.4",
+    "com.caffeinalab.titanium.tiltimageview": "*",
+    "com.caffeinalab.titanium.videoplayer": "*",
+    "it.apra.tiimageviewer": "*"
+  }
+}

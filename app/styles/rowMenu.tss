@@ -1,0 +1,26 @@
+".rowTitulo": {
+	left: "50dp",
+	color: Alloy.Globals.Menu_Color_Letra,
+	textAlign: "left",
+	font: {
+		fontFamily: "Lato",
+		fontSize: "20dp"
+	}
+},
+".rowIcon": {
+   	left: "0dp",
+   	top: "0dp",
+	width: "40dp",
+	height: "40dp",
+	color: Alloy.Globals.Menu_Color_Icono,
+	textAlign: "center",
+	font: {
+		fontFamily: "FontAwesome",
+		fontSize: "30dp"		
+	}
+},
+"#row": {
+	height: "40dp",
+	selectedBackgroundColor: Alloy.Globals.Menu_Color_Fondo_Seleccionado,
+	backgroundColor: "transparent"
+}

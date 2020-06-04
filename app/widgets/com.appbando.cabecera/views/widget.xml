@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="viewCabecera">
+		<View id="viewFila1">
+			<Label id="lblOpcionIzquierda" class="icono fa-bars"></Label>
+			<Label id="lblTitulo" class="TextoTitulo"></Label>
+			<Label id="lblOpcionDerecha"></Label>			
+		</View>
+	</View>
+</Alloy>
